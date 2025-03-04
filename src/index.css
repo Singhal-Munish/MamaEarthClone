@@ -1,0 +1,343 @@
+#root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;  
+}
+
+.infoBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 60px;
+    background-color: #f04438;
+    color: white;
+    font-size: 2vh;
+}
+
+.navBar{
+    position: sticky !important;
+    z-index: 10;
+    top: 0 !important;
+    padding: 0 !important;
+}
+
+.navBarHeight{
+    height: 9vh;
+}
+
+.logo{
+    height: 5vh;
+}
+
+.searchBox{
+    width: 44vw;   
+    height: 6vh;
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+
+.searchButton{
+    border-radius:  0 8px 8px 0 !important;
+    padding: 0px 10px !important;
+    width: 120px !important;
+    background-color: #00afef !important;
+}
+
+.insider{
+    height: 6vh;
+}
+
+.menuContainer{
+    border-top: 1px solid lightgray;
+    padding: 0 !important;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+@media (max-width: 768px){
+    .menuContainer{
+        display: none !important;
+    }
+}
+.menu{
+    margin: auto;
+    padding: 0 !important;
+    font-size: 2.2vh;    
+    font-weight: 500;
+}
+
+.menuItems{
+    width: 5vw;
+}
+
+.bannerImage{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+.carousel-inner{
+    padding: 0 !important;
+}
+
+
+.carousel-inner {
+    padding: 1em;
+}
+
+#cardBanner .carousel-control-prev,
+#cardBanner .carousel-control-next {
+    width: 7vh !important;
+    height: 7vh !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+#cardBanner .carousel-control-prev {
+    left: -5% !important;
+}
+
+#cardBanner .carousel-control-next {
+    right: -5% !important;
+}
+.faceCardImage{
+    height: 42vh;
+    top: 0;
+}
+
+.cardSize{
+    width: 24%;
+}
+
+@media (max-width: 576px){
+    .cardSize{
+        width: 30%;
+    }
+}
+@media (max-width: 768px){
+    .cardSize{
+        width: 40%;
+    }
+}
+
+.cardBody{
+    padding: 10px 1.2vw !important;
+}
+
+.breadCrumb {
+    margin-top: 20px;
+}
+
+.cardBadge{
+    background-color: #ff5b6f;
+    border-radius: 5px 0px 5px 0px;
+    color: white;
+    padding: 4px 6px;
+    font-size: 2.2vh;
+    position: absolute;
+    top: 0;
+}
+
+.cardTitle{
+    font-size: 2.9vh !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    text-align: center;
+    height: 7vh !important;    
+}
+
+.subTitle{
+    color: #5c9422;
+    font-size: 2.4vh;
+    font-weight: semibold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ratings{
+    font-size: 2vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.stars::before{
+    content: '★';
+    color: #ffc300;
+    margin-right: 6px;
+}
+
+.reviews::before{
+    content: '★';
+    color: #26bbf1;
+    margin-right: 6px;
+}
+
+.price{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8vw;
+    justify-content: center;
+}
+
+.specialPrice{
+    font-size: 3vh;
+    font-weight: 500;
+    display: inline;
+    color: black;
+}
+
+.mrp{
+    font-size: 3vh;
+    font-weight: 500;
+    display: inline;
+    color: #a3acc3;
+}
+
+.discount{
+    background-color: #a8d57a;
+    font-size: 2.2vh;
+    padding: 0 7px;
+}
+
+.addToCartBtn{
+    width: 100%;
+    background-color: #00aeef !important;
+    margin-top: 10px;
+    font-size: 2.8vh !important;
+    font-weight: 500 !important;
+}
+
+.GoodnessPromise{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.video{
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 68vh;
+    width: 38vw;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 68vh;
+    width: 62vw;
+    padding: 0 20px;
+    text-align: center;
+    font-size: .9em;
+}
+
+.shopNow{
+    background-color: #00afef;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 10px;
+    font-size: .9em;
+}
+
+.pledges{
+    border: 1px solid #00afef;
+    border-radius: 5px;
+    color: #00afef;
+    padding: 8px 10px;
+    margin-left: 15px;
+    font-size: .9em;
+}
+
+.goodnessImage{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;    
+}
+
+.plantGoodness{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    translate: -50% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oval{
+    height: 3px;
+    width: 120px;
+    border-radius: 70%;
+    background-color: darkgrey;
+}
+
+.buttonImage{
+    height: 7vh;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.customerSays{
+    height: 3px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    translate: -50% -50%;
+    left: 50%;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom: 60px;
+}
+
+.shipping{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.shippingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.shipping.col > div:nth-child(1){
+    border-right: 1px solid lightgrey;
+}
+
+@media (max-width: 768px){
+    .shipping{
+        flex-direction: column;
+    }
+    .shipping.col > div:nth-child(1){
+        border-right: none;
+    }
+}
+
+.contact{
+    border: 1px solid #00afef;
+    background-color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #00afef;
+    padding: 7px 40px;
+    border-radius: 5px;
+}
+
+.aboutText{
+    font-size: 1em;
+    margin-top: 20px;
+}
