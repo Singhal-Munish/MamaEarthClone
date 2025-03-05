@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      {/* <FaceCareProducts />
+      <FaceCareProducts />
       <LightningSale/>
       <WinterEssentials />
       <SkinCare />
@@ -27,7 +27,7 @@ const Home = () => {
       <BabyCare />
       <MakeUp />
       <Fragrances />
-      <NewLaunches /> */}
+      <NewLaunches />
       <GoodnessPromise />
       <SuperSafeStandards />
       <WhatCustomerSays />

@@ -27,10 +27,6 @@ function App() {
           <Route path="*" element={<NoMatch />}/>
         </Routes>       */}
         <Home />
-        <About />
-        <Projects />
-        <Contact />
-        <NoMatch />
         {/* <Footer /> */}
       </expInfoContext.Provider>
     </>
