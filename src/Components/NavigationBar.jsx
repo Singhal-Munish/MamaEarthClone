@@ -43,8 +43,7 @@ const NavigationBar = () => {
                 </Navbar.Collapse>
                 <div className='d-flex align-items-center'>
                   <IoCartOutline className='text-primary fs-5 ms-3' />
-                  {/* <Nav.Link href="/contact">Cart</Nav.Link> */}
-                  <a href="../contact">Cart</a>
+                  <Nav.Link href="/">Cart</Nav.Link>
                 </div>
                 <div className='d-flex align-items-center'>
                 <FaRegUser className='text-primary fs-5 ms-3' />
